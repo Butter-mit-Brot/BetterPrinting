@@ -120,6 +120,8 @@ Output:
 
 ### Command explanation
 
+-----------------------
+
 **oneLine** [1 line normal print]
 
 **twoLine** [two lines]
