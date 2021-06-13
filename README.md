@@ -19,5 +19,17 @@ If you dont have following libaries installed go and install them too.
 
 [random, string, termcolor]
 
-random and string are standard Python libraries
+random and string are standard Python libraries3
+Here is 
 <a href="https://pypi.org/project/termcolor/">termcolor</a>
+
+<hr>
+
+### Usage
+
+ ```
+import BetterPrinting as bp
+ ```
+ 
+ The
+ 
