@@ -1,0 +1,14 @@
+Change Log
+==========
+
+0.0.1 (13/06/2021)
+------------------
+- First Release
+
+
+0.1.1 (13/06/2021)
+------------------
+- added fourLine, fiveLine, createF (create File)
+
+- fixed splitWRD [Don't need to put , between words in a text spaces work now]
+
