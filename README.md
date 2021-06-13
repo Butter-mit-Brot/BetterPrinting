@@ -120,29 +120,29 @@ Output:
 
 ### Command explanation
 
-oneLine [1 line normal print]
+**oneLine** [1 line normal print]
 
-twoLine [two lines]
+**twoLine** [two lines]
 
-threeLine [three lines]
+**threeLine** [three lines]
 
-fourLine [four lines]
+**fourLine** [four lines]
 
-fiveLine [five lines]
+**fiveLine** [five lines]
 
-color [puts out a colored version of your text]
+**color** [puts out a colored version of your text]
 
-splitWRD (split word)[makes a big text to an list of words]
+**splitWRD** (split word)[makes a big text to an list of words]
 
-randmSTR (random string)[prints out a random String of letters, numbers and special characters]
+**randmSTR** (random string)[prints out a random String of letters, numbers and special characters]
 
-randmLTR (random letters)[prints out a random combination of letters]
+**randmLTR** (random letters)[prints out a random combination of letters]
 
-randmDIG (random digits)[prints out a random combination of numbers]
+**randmDIG** (random digits)[prints out a random combination of numbers]
 
-randmSYM (random symbols)[prints out a random combination of special characters]
+**randmSYM** (random symbols)[prints out a random combination of special characters]
 
-creatF (create File)[creates a file]
+**creatF** (create File)[creates a file]
 
 <hr>
 
