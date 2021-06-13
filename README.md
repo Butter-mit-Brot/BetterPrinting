@@ -1,7 +1,7 @@
 # BetterPrinting
 A python library for "better" printing 
 
-BetterPrinting is a libary for easy to use printing actions!
+BetterPrinting is a library for easy to use printing actions!
 
 <hr>
 
@@ -32,5 +32,20 @@ Here is
 import BetterPrinting as bp
  ```
  
- The
+How to use the package?
+
+ ```Python
+ import BetterPrinting as bp
+
+bp.color("This is a green demo text!", "green")
+bp.oneLine("Password Generator!")
+t = input("How long should the password be? ")
+bp.randmSTR(int(t))
  
+ ```
+<hr>
+
+ 
+ 
+
+
