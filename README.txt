@@ -1,0 +1,1 @@
+This is a all in one print library! It should not be a "better" print method...it should more be like an all in one print statement!

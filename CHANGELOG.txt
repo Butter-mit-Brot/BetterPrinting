@@ -1,0 +1,9 @@
+Change Log
+==========
+
+0.0.1 (13/06/2021)
+------------------
+- First Release
+
+- For more detailed information go on the github(https://github.com/Butter-mit-Brot/BetterPrinting)
+
