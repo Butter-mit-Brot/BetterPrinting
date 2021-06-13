@@ -122,29 +122,29 @@ Output:
 
 -----------------------
 
-**oneLine** [1 line normal print] BetterPrinting.oneLine("text")
+**oneLine** [1 line normal print] _BetterPrinting.oneLine("text")_
 
-**twoLine** [two lines] BetterPrinting.twoLine("text", "text2")
+**twoLine** [two lines] _BetterPrinting.twoLine("text", "text2")_
 
-**threeLine** [three lines] BetterPrinting.threeLine("text", "text2", "text3")
+**threeLine** [three lines] _BetterPrinting.threeLine("text", "text2", "text3")_
 
-**fourLine** [four lines] BetterPrinting.fourLine("text", "text2", "text3", "text4")
+**fourLine** [four lines] _BetterPrinting.fourLine("text", "text2", "text3", "text4")_
 
-**fiveLine** [five lines] BetterPrinting.fiveLine("text", "text2", "text3", "text4", "text5")
+**fiveLine** [five lines] _BetterPrinting.fiveLine("text", "text2", "text3", "text4", "text5")_
 
-**color** [puts out a colored version of your text] BetterPrinting.color("text", "color for example red")
+**color** [puts out a colored version of your text] _BetterPrinting.color("text", "color for example red")_
 
-**splitWRD** (split word)[makes a big text to an list of words] BetterPrinting.splitWRD("Splits the text if space is between the words")
+**splitWRD** (split word)[makes a big text to an list of words] _BetterPrinting.splitWRD("Splits the text if space is between the words")_
 
-**randmSTR** (random string)[prints out a random String of letters, numbers and special characters] BetterPrinting.randmSTR(number)
+**randmSTR** (random string)[prints out a random String of letters, numbers and special characters] _BetterPrinting.randmSTR(number)_
 
-**randmLTR** (random letters)[prints out a random combination of letters] BetterPrinting.randmLTR(number)
+**randmLTR** (random letters)[prints out a random combination of letters] _BetterPrinting.randmLTR(number)_
 
-**randmDIG** (random digits)[prints out a random combination of numbers] BetterPrinting.randmDIG(number)
+**randmDIG** (random digits)[prints out a random combination of numbers] _BetterPrinting.randmDIG(number)_
 
-**randmSYM** (random symbols)[prints out a random combination of special characters] BetterPrinting.randmSYM(number)
+**randmSYM** (random symbols)[prints out a random combination of special characters] _BetterPrinting.randmSYM(number)_
 
-**creatF** (create File)[creates a file] BetterPrinting.creatF("Filename", "text")
+**creatF** (create File)[creates a file] _BetterPrinting.creatF("Filename", "text")_
 
 <hr>
 
