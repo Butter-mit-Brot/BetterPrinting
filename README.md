@@ -122,29 +122,29 @@ Output:
 
 -----------------------
 
-**oneLine** [1 line normal print]
+**oneLine** [1 line normal print] BetterPrinting.oneLine("text")
 
-**twoLine** [two lines]
+**twoLine** [two lines] BetterPrinting.twoLine("text", "text2")
 
-**threeLine** [three lines]
+**threeLine** [three lines] BetterPrinting.threeLine("text", "text2", "text3")
 
-**fourLine** [four lines]
+**fourLine** [four lines] BetterPrinting.fourLine("text", "text2", "text3", "text4")
 
-**fiveLine** [five lines]
+**fiveLine** [five lines] BetterPrinting.fiveLine("text", "text2", "text3", "text4", "text5")
 
-**color** [puts out a colored version of your text]
+**color** [puts out a colored version of your text] BetterPrinting.color("text", "color for example red")
 
-**splitWRD** (split word)[makes a big text to an list of words]
+**splitWRD** (split word)[makes a big text to an list of words] BetterPrinting.splitWRD("Splits the text if space is between the words")
 
-**randmSTR** (random string)[prints out a random String of letters, numbers and special characters]
+**randmSTR** (random string)[prints out a random String of letters, numbers and special characters] BetterPrinting.randmSTR(number)
 
-**randmLTR** (random letters)[prints out a random combination of letters]
+**randmLTR** (random letters)[prints out a random combination of letters] BetterPrinting.randmLTR(number)
 
-**randmDIG** (random digits)[prints out a random combination of numbers]
+**randmDIG** (random digits)[prints out a random combination of numbers] BetterPrinting.randmDIG(number)
 
-**randmSYM** (random symbols)[prints out a random combination of special characters]
+**randmSYM** (random symbols)[prints out a random combination of special characters] BetterPrinting.randmSYM(number)
 
-**creatF** (create File)[creates a file]
+**creatF** (create File)[creates a file] BetterPrinting.creatF("Filename", "text")
 
 <hr>
 
