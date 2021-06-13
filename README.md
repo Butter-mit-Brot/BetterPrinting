@@ -19,7 +19,8 @@ If you dont have following libaries installed go and install them too.
 
 [random, string, termcolor]
 
-random and string are standard Python libraries3
+random and string are standard Python libraries
+
 Here is 
 <a href="https://pypi.org/project/termcolor/">termcolor</a>
 
