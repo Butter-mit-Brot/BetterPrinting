@@ -5,7 +5,7 @@ BetterPrinting is a library for easy to use printing actions!
 
 <hr>
 
-### installation
+### Installation
 
 Ensure you have at least Python 3.
 
