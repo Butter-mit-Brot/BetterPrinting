@@ -20,7 +20,7 @@ setup(
     name='BetterPrinting',
     version='0.1.1',
     description='A all in one print function',
-    long_description=create_long_description('\n\n', 'README.md', 'CHANGELOG.md'),
+    long_description=create_long_description('\n\n', 'README.txt', 'CHANGELOG.txt'),
     url='https://github.com/Butter-mit-Brot/BetterPrinting',
     author='Max "Butter" W.',
     author_email='maxwbusinesspypi@gmail.com',
