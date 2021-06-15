@@ -12,3 +12,9 @@ Change Log
 
 - fixed splitWRD [Don't need to put , between words in a text spaces work now]
 
+
+0.2.1 (15/06/2021)
+------------------
+- changed all multi lines like fourLine to multiLine
+
+- createF is now creating a file if its not in the folder and will write text into the file if the file is in the folder (Thanks to NickolaiBeloguzov)
