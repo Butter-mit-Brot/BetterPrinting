@@ -91,7 +91,8 @@ Faster writing:
 ```Python
 from BetterPrinting import multiLines
 
-multiLines("[1] Today I will go to work!", "[2] Today I will work in my garden", "[3] Today i will go hiking!", "[4] Today I will learn Python", "[5] Today I wíll just relax")
+multiLines("[1] Today I will go to work!", "[2] Today I will work in my garden",
+"[3] Today i will go hiking!", "[4] Today I will learn Python", "[5] Today I wíll just relax")
 ```
 
 Output:
