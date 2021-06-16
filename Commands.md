@@ -1,12 +1,4 @@
-**oneLine** [1 line normal print]    _BetterPrinting.oneLine("text")_
-
-**twoLine** [two lines]    _BetterPrinting.twoLine("text", "text2")_
-
-**threeLine** [three lines]    _BetterPrinting.threeLine("text", "text2", "text3")_
-
-**fourLine** [four lines]    _BetterPrinting.fourLine("text", "text2", "text3", "text4")_
-
-**fiveLine** [five lines]    _BetterPrinting.fiveLine("text", "text2", "text3", "text4", "text5")_
+**multiLines** (multiple Lines)[prints out multiple Lines]    _BetterPrinting.multiLines("text", "text and more")_
 
 **color** [puts out a colored version of your text]    _BetterPrinting.color("text", "color for example red")_
 
@@ -20,4 +12,4 @@
 
 **randmSYM** (random symbols)[prints out a random combination of special characters]    _BetterPrinting.randmSYM(number)_
 
-**creatF** (create File)[creates a file]    _BetterPrinting.creatF("Filename", "text")_
+**createF** (create File)[creates a file]    _BetterPrinting.creatF("Filename", "text")_
