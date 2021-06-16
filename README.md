@@ -35,10 +35,10 @@ import BetterPrinting as bp
 How to use the package?
 
  ```Python
- import BetterPrinting as bp
+import BetterPrinting as bp
 
 bp.color("This is a green demo text!", "green")
-bp.oneLine("Password Generator!")
+bp.multiLines("Password Generator!", '\n')
 t = input("How long should the password be? ")
 bp.randmSTR(int(t))
  
@@ -46,7 +46,7 @@ bp.randmSTR(int(t))
  
  Result:
  
- ![image](https://user-images.githubusercontent.com/83476809/121803160-80742280-cc40-11eb-8fe4-2596d912b238.png)
+![image](https://user-images.githubusercontent.com/83476809/122221733-dbf91700-ceb1-11eb-87ba-9310ece111e1.png)
 
 <hr>
 
@@ -57,7 +57,7 @@ bp.randmSTR(int(t))
  ```Python
  import BetterPrinting as bp
 
-bp.twoLine("----This is a easy Password creator---", "Lets start!\n")
+bp.multiLines("----This is a easy Password creator---", "Lets start!\n")
 
 x = input('input the length of your password here: ')
 
@@ -73,7 +73,7 @@ Word splitter:
 ```Python
 import BetterPrinting as bp
 
-bp.oneLine("Text splitter!")
+bp.multiLines("Text splitter!")
 
 text= 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et ' \
       'dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores ' \
@@ -89,15 +89,14 @@ Output:
 Faster writing:
 
 ```Python
-from BetterPrinting import threeLine, twoLine
+from BetterPrinting import multiLines
 
-threeLine("[1] Today I will go to work!", "[2] Today I will work in my garden", "[3] Today i will go hiking!")
-twoLine("[4] Today I will learn Python", "[5] Today I wíll just relax")
+multiLines("[1] Today I will go to work!", "[2] Today I will work in my garden", "[3] Today i will go hiking!", "[4] Today I will learn Python", "[5] Today I wíll just relax")
 ```
 
 Output:
 
-![image](https://user-images.githubusercontent.com/83476809/121803736-33458000-cc43-11eb-9246-de6eb2ea2892.png)
+![image](https://user-images.githubusercontent.com/83476809/122222011-22e70c80-ceb2-11eb-94a2-89449fcb1dea.png)
 
 Easy to use file creator:
 
@@ -106,9 +105,9 @@ import BetterPrinting as bp
 
 tex= 'This is a test text!'
 
-bp.creatF("Hello.txt", tex)
+bp.createF("Hello.txt", tex)
 
-bp.oneLine("[Finished]")
+bp.multiLines("[Finished]")
 ```
 
 Output:
