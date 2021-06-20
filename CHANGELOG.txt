@@ -18,3 +18,8 @@ Change Log
 - changed all multi lines like fourLine to multiLine
 
 - createF is now creating a file if its not in the folder and will write text into the file if the file is in the folder (Thanks to NickolaiBeloguzov)
+
+0.2.2 (20/06/2021)
+------------------
+- added overwrite to createF
+
