@@ -120,7 +120,7 @@ Output:
 
 ![image](https://user-images.githubusercontent.com/83476809/122685718-77b9b880-d20d-11eb-8309-7e1644c3553a.png)
 
-**if we want to get around that, we need to use overwrite=True in default it is False but if we set it to true we will get something different! Example:
+**if we want to get around that, we need to use overwrite=True in default it is False but if we set it to true we will get something different! Example:**
 
 ```Python
 import BetterPrinting as bp
@@ -134,10 +134,10 @@ bp.multiLines("[Finished]")
 ```
 Output:
 
-**Before:
+**Before:**
 ![image](https://user-images.githubusercontent.com/83476809/122685718-77b9b880-d20d-11eb-8309-7e1644c3553a.png)
 
-**after that:
+**after that:**
 
 ![image](https://user-images.githubusercontent.com/83476809/122685815-1219fc00-d20e-11eb-8c60-c6607a5b96af.png)
 
