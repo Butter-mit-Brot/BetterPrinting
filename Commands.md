@@ -12,4 +12,4 @@
 
 **randmSYM** (random symbols)[prints out a random combination of special characters]    _BetterPrinting.randmSYM(number)_
 
-**createF** (create File)[creates a file]    _BetterPrinting.creatF("Filename", "text")_
+**createF** (create File)[creates a file]    _BetterPrinting.creatF("Filename", "text", overwrite=True {optional look into the examples to learn more!})_
