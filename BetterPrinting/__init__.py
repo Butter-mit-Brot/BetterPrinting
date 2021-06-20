@@ -3,6 +3,7 @@ import random
 import string
 import os
 
+
 def multiLines(*args):
     print("\n".join(args))
 
@@ -41,13 +42,16 @@ def randmSYM(length):
 
     print(str)
 
-def createF(name, text):
+def createF(name, text, overwrite=False):
     def _select_mode(file):
-        # Thanks to NickolaiBeloguzov for helping me with this!
+        # Thanks to NickolaiBeloguzov for helping me with the os path function!
         if os.path.isfile(name):
 
             if os.stat(name).st_size != 0:
-                return 'a'
+                if overwrite == False:
+                    return 'a'
+                else:
+                    pass
             return 'w'
 
         return 'x'
