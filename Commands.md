@@ -14,4 +14,4 @@
 
 **randmSYM** (random symbols)[prints out a random combination of special characters]    _BetterPrinting.randmSYM(number)_
 
-##class system
+###class system
