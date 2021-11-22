@@ -15,11 +15,7 @@ Ensure you have at least Python 3.
  pip3 install BetterPrinting
  ```
 
-If you dont have following libaries installed go and install them too.
-
-[random, string, termcolor]
-
-random and string are standard Python libraries
+Termcolor is not a standard library. 
 
 Here is 
 <a href="https://pypi.org/project/termcolor/">termcolor</a>
