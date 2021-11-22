@@ -23,3 +23,10 @@ Change Log
 ------------------
 - added overwrite to createF
 
+0.3.1 (22/11/2021)
+------------------
+- remove createF
+
+- added class system with (sysinfo, time, date, tasks)
+
+- added breakline and clear
