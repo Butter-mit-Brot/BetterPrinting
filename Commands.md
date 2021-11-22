@@ -1,5 +1,7 @@
 **multiLines** (multiple Lines)[prints out multiple Lines]    _BetterPrinting.multiLines("text", "text and more")_
 
+**breakline** [prints a Line with minuses]     _BetterPrinting.breakline({optional}amount=number)
+
 **color** [puts out a colored version of your text]    _BetterPrinting.color("text", "color for example red")_
 
 **splitWRD** (split word)[makes a big text to an list of words]    _BetterPrinting.splitWRD("Splits the text if space is between the words")_
@@ -12,4 +14,4 @@
 
 **randmSYM** (random symbols)[prints out a random combination of special characters]    _BetterPrinting.randmSYM(number)_
 
-**createF** (create File)[creates a file]    _BetterPrinting.creatF("Filename", "text", overwrite=True {optional look into the examples to learn more!})_
+##class system
