@@ -99,48 +99,36 @@ Output:
 
 ![image](https://user-images.githubusercontent.com/83476809/122222011-22e70c80-ceb2-11eb-94a2-89449fcb1dea.png)
 
-Easy to use file creator:
+A time table:
 
 ```Python
 import BetterPrinting as bp
 
-tex= 'This is a test text!'
-
-bp.createF("Hello.txt", tex)
-
-bp.multiLines("[Finished]")
+bp.breakline()
+bp.multiLines("This is a Time table", f"Time: {bp.system.time(print_val=False)}", f"Date: {bp.system.date(print_val=False)}")
+bp.breakline()
 ```
 
 Output:
 
-![image](https://user-images.githubusercontent.com/83476809/121820048-dec8f180-cc90-11eb-866d-4f6aa7d95a59.png)
-![image](https://user-images.githubusercontent.com/83476809/121820057-e8eaf000-cc90-11eb-9b74-346be28073ef.png)
+![image](https://user-images.githubusercontent.com/83476809/142874565-ee0cc0a8-f3f7-4d43-b6eb-368f80ebc14c.png)
 
-**If I start the programm again the outut will be this!**
-
-![image](https://user-images.githubusercontent.com/83476809/122685718-77b9b880-d20d-11eb-8309-7e1644c3553a.png)
-
-**if we want to get around that, we need to use overwrite=True in default it is False but if we set it to true we will get something different! Example:**
+Print System info:
 
 ```Python
 import BetterPrinting as bp
 
-tex= 'This text killed the other one!'
-
-bp.createF("Hello.txt", tex, overwrite=True)
-
-bp.multiLines("[Finished]")
-
+bp.breakline()
+bp.system.sysinfo(os=True, version=True, ip=True)
 ```
-Output:
 
-**Before:**
+In Windows:
 
-![image](https://user-images.githubusercontent.com/83476809/122685718-77b9b880-d20d-11eb-8309-7e1644c3553a.png)
+![image](https://user-images.githubusercontent.com/83476809/142875907-cb98ec6a-2caa-4796-91af-e5c81a23f4ac.png)
 
-**after that:**
+In Linux subsystem:
 
-![image](https://user-images.githubusercontent.com/83476809/122685815-1219fc00-d20e-11eb-8c60-c6607a5b96af.png)
+![image](https://user-images.githubusercontent.com/83476809/142876040-ca3a1666-3910-4db9-8131-c478fbcb531d.png)
 
 <hr>
 
