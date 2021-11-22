@@ -1,3 +1,5 @@
+### Main functions
+
 **multiLines** (multiple Lines)[prints out multiple Lines]    _BetterPrinting.multiLines("text", "text and more")_
 
 **breakline** [prints a Line with minuses]     _BetterPrinting.breakline({optional}amount=number)
