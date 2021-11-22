@@ -16,4 +16,10 @@
 
 ### class system:
 
+**sysinfo** (systeminfo)[prints systeminfo]     _BetterPrinting.system.sysinfo({leave empty if everything should be shown or write all=True} {if you just want to show specific information write the keywords + = + True for example: user=True} all keywords: user, name, os, version, processor, architecture, ip)
 
+**time** [prints or returns the time]     _BetterPrinting.system.time({optional write print_val=False to use this as a variable})
+
+**date** [prints or returns the date]     _BetterPrinting.system.date({optional write print_val=False to use this as a variable})
+
+**tasks** [prints out the current tasks (works only in windows and Linux)]     _BetterPrinting.system.tasks()
