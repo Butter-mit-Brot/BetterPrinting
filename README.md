@@ -1,7 +1,7 @@
 # BetterPrinting
 A python library for "better" printing 
 
-BetterPrinting is a library for easy to use printing actions!
+BetterPrinting is a library for easy to use printing actions and functions arround printing!
 
 <hr>
 
