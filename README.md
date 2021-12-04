@@ -127,6 +127,12 @@ In Linux subsystem:
 ![image](https://user-images.githubusercontent.com/83476809/142876040-ca3a1666-3910-4db9-8131-c478fbcb531d.png)
 
 <hr>
+#### Class explanations
+
+### The <a href='https://github.com/Butter-mit-Brot/BetterPrinting/blob/main/docs/ui.md#the-ui-class'>ui</a> class 
+
+
+<hr>
 
 ### Command explanation
 
