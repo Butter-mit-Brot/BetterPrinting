@@ -25,3 +25,9 @@
 **date** [prints or returns the date]     _BetterPrinting.system.date({optional write print_val=False to use this as a variable})
 
 **tasks** [prints out the current tasks (works only in windows and Linux)]     _BetterPrinting.system.tasks()
+
+### class ui:
+
+**title_bar** [prints a title bar with a text]     _BetterPrinting.ui.title_bar(Title, {optional}spaces=number of spaces)
+
+**text_box** [prints a text box with any amount of text]     _BetterPrinting.ui.text_box(text, text, text {any amount}, {optional}free_line = even number, {optional}rounded_edges= True or False)
