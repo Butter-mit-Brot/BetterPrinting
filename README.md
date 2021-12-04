@@ -140,6 +140,7 @@ In Linux subsystem:
 
 <a href='https://github.com/Butter-mit-Brot/BetterPrinting/blob/main/docs/ui.md#the-ui-class'>The ui class</a>
 
+<a href='https://github.com/Butter-mit-Brot/BetterPrinting/blob/main/docs/system.md#the-system-class'>The system class</a>
 
 <hr>
 
