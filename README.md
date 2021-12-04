@@ -22,6 +22,13 @@ Here is
 
 <hr>
 
+### Explanations
+
+<a href='https://github.com/Butter-mit-Brot/BetterPrinting#class-explanations'>Class explanations</a>
+<a href='https://github.com/Butter-mit-Brot/BetterPrinting#command-explanation'>Command explanations</a>
+
+<hr>
+
 ### Usage
 
  ```
@@ -130,7 +137,7 @@ In Linux subsystem:
 
 ### Class explanations
 
-The <a href='https://github.com/Butter-mit-Brot/BetterPrinting/blob/main/docs/ui.md#the-ui-class'>ui</a> class 
+<a href='https://github.com/Butter-mit-Brot/BetterPrinting/blob/main/docs/ui.md#the-ui-class'>The ui class</a>
 
 
 <hr>
