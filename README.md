@@ -149,9 +149,3 @@ In Linux subsystem:
 <a href="https://github.com/Butter-mit-Brot/BetterPrinting/blob/main/Commands.md">All commands here</a>
 
 <hr>
-
-### Why?
-
-This is not a professional library and it is not the best to make some new inventions!
-It sould be more like a fun project for me!
-I hope I could maybe help someone with it :)
