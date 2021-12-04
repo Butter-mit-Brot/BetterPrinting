@@ -25,6 +25,7 @@ Here is
 ### Explanations
 
 <a href='https://github.com/Butter-mit-Brot/BetterPrinting#class-explanations'>Class explanations</a>
+
 <a href='https://github.com/Butter-mit-Brot/BetterPrinting#command-explanation'>Command explanations</a>
 
 <hr>
