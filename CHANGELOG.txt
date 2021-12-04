@@ -30,3 +30,11 @@ Change Log
 - added class system with (sysinfo, time, date, tasks)
 
 - added breakline and clear
+
+0.4.1 (04/12/2021)
+------------------
+- added multInput
+
+- added class ui with (title_bar, text_box)
+
+- added print_val to all functions that pass out data for example randmSTR or splitWRD
