@@ -1,27 +1,22 @@
 Change Log
 ==========
 
-0.0.1 (13/06/2021)
+0.4.2 (05/12/2021)
 ------------------
-- First Release
 
+- added print_val to color
 
-0.1.1 (13/06/2021)
+- changed CHANGELOG so that the newest version is on top
+
+- name changes because of PEP 8 naming convetions: multiLines -> multi_lines breakline -> break_line, splitWRD -> split_wrd, randmSTR -> random_str (the same with the other random functions), multInput -> multi_input, sysinfo -> sys_info
+
+0.4.1 (04/12/2021)
 ------------------
-- added fourLine, fiveLine, createF (create File)
+- added multInput
 
-- fixed splitWRD [Don't need to put , between words in a text spaces work now]
+- added class ui with (title_bar, text_box)
 
-
-0.2.1 (15/06/2021)
-------------------
-- changed all multi lines like fourLine to multiLine
-
-- createF is now creating a file if its not in the folder and will write text into the file if the file is in the folder (Thanks to NickolaiBeloguzov)
-
-0.2.2 (20/06/2021)
-------------------
-- added overwrite to createF
+- added print_val to all functions that pass out data for example randmSTR or splitWRD
 
 0.3.1 (22/11/2021)
 ------------------
@@ -31,10 +26,22 @@ Change Log
 
 - added breakline and clear
 
-0.4.1 (04/12/2021)
+0.2.2 (20/06/2021)
 ------------------
-- added multInput
+- added overwrite to createF
 
-- added class ui with (title_bar, text_box)
+0.2.1 (15/06/2021)
+------------------
+- changed all multi lines like fourLine to multiLine
 
-- added print_val to all functions that pass out data for example randmSTR or splitWRD
+- createF is now creating a file if its not in the folder and will write text into the file if the file is in the folder (Thanks to NickolaiBeloguzov)
+
+0.1.1 (13/06/2021)
+------------------
+- added fourLine, fiveLine, createF (create File)
+
+- fixed splitWRD [Don't need to put , between words in a text spaces work now]
+
+0.0.1 (13/06/2021)
+------------------
+- First Release

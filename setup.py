@@ -10,7 +10,7 @@ classifiers = [
 
 setup(
     name='BetterPrinting',
-    version='0.4.1',
+    version='0.4.2',
     description='A all in one print function',
     long_description=open('README.txt').read() + '\n\n' + open('CHANGELOG.txt').read(),
     url='https://github.com/Butter-mit-Brot/BetterPrinting',
