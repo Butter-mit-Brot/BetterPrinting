@@ -5,7 +5,7 @@ System info:
 ```Python
 import BetterPrinting as bp
 
-bp.system.sysinfo()
+bp.system.sys_info()
 
 ```
 
