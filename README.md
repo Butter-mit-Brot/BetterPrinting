@@ -42,9 +42,9 @@ How to use the package?
 import BetterPrinting as bp
 
 bp.color("This is a green demo text!", "green")
-bp.multiLines("Password Generator!", '\n')
+bp.multi_lines("Password Generator!", '\n')
 t = input("How long should the password be? ")
-bp.randmSTR(int(t))
+bp.random_str(int(t))
  
  ```
  
@@ -61,11 +61,11 @@ bp.randmSTR(int(t))
  ```Python
  import BetterPrinting as bp
 
-bp.multiLines("----This is a easy Password creator---", "Lets start!\n")
+bp.multi_lines("----This is a easy Password creator---", "Lets start!\n")
 
 x = input('input the length of your password here: ')
 
-bp.randmSTR(int(x)) 
+bp.random_str(int(x)) 
  ```
 
 Output:
@@ -77,13 +77,13 @@ Word splitter:
 ```Python
 import BetterPrinting as bp
 
-bp.multiLines("Text splitter!")
+bp.multi_lines("Text splitter!")
 
 text= 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et ' \
       'dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores ' \
       'et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.'
 
-bp.splitWRD(text)
+bp.split_wrd(text)
 ```
 
 Output:
@@ -93,9 +93,9 @@ Output:
 Faster writing:
 
 ```Python
-from BetterPrinting import multiLines
+from BetterPrinting import multi_lines
 
-multiLines("[1] Today I will go to work!", "[2] Today I will work in my garden",
+multi_lines("[1] Today I will go to work!", "[2] Today I will work in my garden",
 "[3] Today i will go hiking!", "[4] Today I will learn Python", "[5] Today I wíll just relax")
 ```
 
@@ -108,9 +108,9 @@ A time table:
 ```Python
 import BetterPrinting as bp
 
-bp.breakline()
-bp.multiLines("This is a Time table", f"Time: {bp.system.time(print_val=False)}", f"Date: {bp.system.date(print_val=False)}")
-bp.breakline()
+bp.break_line()
+bp.multi_lines("This is a Time table", f"Time: {bp.system.time(print_val=False)}", f"Date: {bp.system.date(print_val=False)}")
+bp.break_line()
 ```
 
 Output:
@@ -122,8 +122,8 @@ Print System info:
 ```Python
 import BetterPrinting as bp
 
-bp.breakline()
-bp.system.sysinfo(os=True, version=True, ip=True)
+bp.break_line()
+bp.system.sys_info(os=True, version=True, ip=True)
 ```
 
 In Windows:
