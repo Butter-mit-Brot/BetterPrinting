@@ -1,6 +1,11 @@
 Change Log
 ==========
 
+0.4.3 (05/12/2021)
+------------------
+
+- changed background of package (not all code in __init__.py file)
+
 0.4.2 (05/12/2021)
 ------------------
 
