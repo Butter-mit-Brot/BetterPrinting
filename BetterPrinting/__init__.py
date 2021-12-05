@@ -8,19 +8,23 @@ import getpass
 import socket
 
 
-# added multInput, ui
-# added print_val to all functions that pass out data for example randmSTR or splitWRD
 
-def multiLines(*args):
+
+def multi_lines(*args):
     print("\n".join(args))
 
 
-def breakline(amount=20):
+def break_line(amount=20):
     print("-" * amount)
 
 
-def color(text, color):
-    print(colored(text, color))
+def color(text, color, print_val=True):
+    if print_val is True:
+        return print(colored(text, color))
+    elif print_val is False:
+        return colored(text, color)
+    else:
+        raise TypeError("print_val must be a bool!")
 
 
 def clear():
@@ -33,7 +37,7 @@ def clear():
         print("os not detected")
 
 
-def splitWRD(text, print_val=True):
+def split_wrd(text, print_val=True):
     txt = text
     sp = txt.split(" ")
     if print_val is True:
@@ -46,7 +50,7 @@ def splitWRD(text, print_val=True):
 
 # random functions
 
-def randmSTR(length, print_val=True):
+def random_str(length, print_val=True):
     l = string.printable
     str = ''.join(random.choice(l) for i in range(length))
     if print_val is True:
@@ -57,7 +61,7 @@ def randmSTR(length, print_val=True):
         raise TypeError("print_val must be a bool!")
 
 
-def randmLTR(length, print_val=True):
+def random_ltr(length, print_val=True):
     l = string.ascii_letters
     str = ''.join(random.choice(l) for i in range(length))
     if print_val is True:
@@ -68,7 +72,7 @@ def randmLTR(length, print_val=True):
         raise TypeError("print_val must be a bool!")
 
 
-def randmDIG(length, print_val=True):
+def random_dig(length, print_val=True):
     l = string.digits
     str = ''.join(random.choice(l) for i in range(length))
     if print_val is True:
@@ -79,7 +83,7 @@ def randmDIG(length, print_val=True):
         raise TypeError("print_val must be a bool!")
 
 
-def randmSYM(length, print_val=True):
+def random_sym(length, print_val=True):
     l = string.punctuation
     str = ''.join(random.choice(l) for i in range(length))
     if print_val is True:
@@ -92,7 +96,7 @@ def randmSYM(length, print_val=True):
 
 # Input
 
-def multInput(number):
+def multi_input(number):
     lines = []
     for i in range(number):
         lines.append(input())
@@ -103,7 +107,7 @@ def multInput(number):
 class system:
 
     @staticmethod
-    def sysinfo(**show):
+    def sys_info(**show):
         kw = ['all', 'user', 'name', 'os', 'version', 'processor', 'architecture', 'ip']
         sysminf = platform.uname()
 
