@@ -1,6 +1,11 @@
 Change Log
 ==========
 
+0.5.2 (09/12/2021)
+------------------
+
+- added my own color function to the system class
+
 0.5.1 (09/12/2021)
 ------------------
 
