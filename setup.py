@@ -10,7 +10,7 @@ classifiers = [
 
 setup(
     name='BetterPrinting',
-    version='0.4.3',
+    version='0.5.0',
     description='A all in one print function',
     long_description=open('README.txt').read() + '\n\n' + open('CHANGELOG.txt').read(),
     url='https://github.com/Butter-mit-Brot/BetterPrinting',
@@ -18,7 +18,7 @@ setup(
     author_email='maxwbusinesspypi@gmail.com',
     license='MIT',
     classifiers=classifiers,
-    keywords=['betterprint', 'print', 'betterprinting', 'printing', 'better', 'stringmanipulation', 'instaprint', 'sysinfo', 'systeminfo', 'terminal', 'ui', 'terminal ui'],
+    keywords=['betterprint', 'print', 'betterprinting', 'printing', 'better', 'stringmanipulation', 'instaprint', 'sysinfo', 'systeminfo', 'terminal', 'ui', 'terminal ui', 'color', 'terminal color', 'rainbow'],
     packages=find_packages(),
-    install_requires=['termcolor']
+    install_requires=[]
 )
