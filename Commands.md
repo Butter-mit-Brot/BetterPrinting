@@ -10,6 +10,8 @@
 
 **split_wrd** (split word)[makes a big text to an list of words]    _BetterPrinting.splitWRD("Splits the text if space is between the words", print_val)_
 
+**multi_input** [lets you get multiple inputs at ones (returns a list so you have a index of your inputs)]     _BetterPrinting.multi_input(number of lines)_
+
 ## color
 
 **color** [puts out a colored version of your text]    _BetterPrinting.color("text", "color for example red", print_val)_
@@ -36,7 +38,7 @@
 
 **tasks** [prints out the current tasks (works only in windows and Linux)]     _BetterPrinting.system.tasks()_
 
-### class ui:
+# class ui:
 
 **title_bar** [prints a title bar with a text]     _BetterPrinting.ui.title_bar(Title, {optional}spaces=number of spaces)_
 
