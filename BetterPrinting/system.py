@@ -3,7 +3,7 @@ import platform
 import os
 import getpass
 import socket
-from termcolor import colored
+from .color import color
 
 
 class system:
@@ -22,38 +22,38 @@ class system:
             for i in keys:
                 if i in kw:
                     if "user" in i:
-                        print("|" + colored("USER: ", "green") + f"{getpass.getuser()}")
+                        print("|" + color("USER: ", "green", print_val=False) + f"{getpass.getuser()}")
                     if "name" in i:
-                        print("|" + colored("NAME: ", "green") + f"{sysminf.node}")
+                        print("|" + color("NAME: ", "green", print_val=False) + f"{sysminf.node}")
                     if "os" in i:
-                        print("|" + colored("OS: ", "green") + f"{sysminf.system}")
+                        print("|" + color("OS: ", "green", print_val=False) + f"{sysminf.system}")
                     if "version" in i:
-                        print("|" + colored("VERSION: ", "green") + f"{sysminf.version}")
+                        print("|" + color("VERSION: ", "green", print_val=False) + f"{sysminf.version}")
                     if "processor" in i:
-                        print("|" + colored("PROCESSOR: ", "green") + f"{sysminf.processor}")
+                        print("|" + color("PROCESSOR: ", "green", print_val=False) + f"{sysminf.processor}")
                     if "architecture" in i:
-                        print("|" + colored("ARCHITECTURE: ", "green") + f"{sysminf.machine}")
+                        print("|" + color("ARCHITECTURE: ", "green", print_val=False) + f"{sysminf.machine}")
                     if "ip" in i:
-                        print("|" + colored("IP-ADDRESS: ", "green") + f"{socket.gethostbyname(socket.gethostname())}")
+                        print("|" + color("IP-ADDRESS: ", "green", print_val=False) + f"{socket.gethostbyname(socket.gethostname())}")
                     if "all" in i:
-                        print("|" + colored("USER: ", "green") + f"{getpass.getuser()}")
-                        print("|" + colored("NAME: ", "green") + f"{sysminf.node}")
-                        print("|" + colored("OS: ", "green") + f"{sysminf.system}")
-                        print("|" + colored("VERSION: ", "green") + f"{sysminf.version}")
-                        print("|" + colored("PROCESSOR: ", "green") + f"{sysminf.processor}")
-                        print("|" + colored("ARCHITECTURE: ", "green") + f"{sysminf.machine}")
-                        print("|" + colored("IP-ADDRESS: ", "green") + f"{socket.gethostbyname(socket.gethostname())}")
+                        print("|" + color("USER: ", "green", print_val=False) + f"{getpass.getuser()}")
+                        print("|" + color("NAME: ", "green", print_val=False) + f"{sysminf.node}")
+                        print("|" + color("OS: ", "green", print_val=False) + f"{sysminf.system}")
+                        print("|" + color("VERSION: ", "green", print_val=False) + f"{sysminf.version}")
+                        print("|" + color("PROCESSOR: ", "green", print_val=False) + f"{sysminf.processor}")
+                        print("|" + color("ARCHITECTURE: ", "green", print_val=False) + f"{sysminf.machine}")
+                        print("|" + color("IP-ADDRESS: ", "green", print_val=False) + f"{socket.gethostbyname(socket.gethostname())}")
                 else:
                     pass
 
         elif show == {}:
-            print("|" + colored("USER: ", "green") + f"{getpass.getuser()}")
-            print("|" + colored("NAME: ", "green") + f"{sysminf.node}")
-            print("|" + colored("OS: ", "green") + f"{sysminf.system}")
-            print("|" + colored("VERSION: ", "green") + f"{sysminf.version}")
-            print("|" + colored("PROCESSOR: ", "green") + f"{sysminf.processor}")
-            print("|" + colored("ARCHITECTURE: ", "green") + f"{sysminf.machine}")
-            print("|" + colored("IP-ADDRESS: ", "green") + f"{socket.gethostbyname(socket.gethostname())}")
+            print("|" + color("USER: ", "green", print_val=False) + f"{getpass.getuser()}")
+            print("|" + color("NAME: ", "green", print_val=False) + f"{sysminf.node}")
+            print("|" + color("OS: ", "green", print_val=False) + f"{sysminf.system}")
+            print("|" + color("VERSION: ", "green", print_val=False) + f"{sysminf.version}")
+            print("|" + color("PROCESSOR: ", "green", print_val=False) + f"{sysminf.processor}")
+            print("|" + color("ARCHITECTURE: ", "green", print_val=False) + f"{sysminf.machine}")
+            print("|" + color("IP-ADDRESS: ", "green", print_val=False) + f"{socket.gethostbyname(socket.gethostname())}")
 
     @staticmethod
     def time(print_val=True):
