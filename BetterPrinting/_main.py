@@ -1,4 +1,3 @@
-from termcolor import colored
 import platform
 import os
 
@@ -9,15 +8,6 @@ def multi_lines(*args):
 
 def break_line(amount=20):
     print("-" * amount)
-
-
-def color(text, color, print_val=True):
-    if print_val is True:
-        return print(colored(text, color))
-    elif print_val is False:
-        return colored(text, color)
-    else:
-        raise TypeError("print_val must be a bool!")
 
 
 def clear():

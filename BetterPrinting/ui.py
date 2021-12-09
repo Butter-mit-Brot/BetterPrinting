@@ -4,6 +4,9 @@ class ui:
     def title_bar(title: str, spaces=0):
         if "\n" in title:
             raise TypeError("\\n is not allowed in the title bar")
+        elif "\033" or "\u001b" in title:
+            raise TypeError("Colored strings are not supported yet, check https://pypi.org/project/BetterPrinting/ "
+                            "if a new version is available")
 
         leng = len(title)
         if spaces == 0:
@@ -15,7 +18,7 @@ class ui:
 
         print("|" + "-" * multi + "|")
         if leng % 2:
-            print("|" + " " * space + title + " " * space + "|")
+            print("|" + " " * space + title + " " * space + " |")
         else:
             print("|" + " " * space + title + " " * space + "|")
         print("|" + "-" * multi + "|")
@@ -44,6 +47,9 @@ class ui:
 
             if "\n" in tex:
                 raise TypeError("\\n is not allowed in string make two separate strings instead")
+            elif "\033" or "\u001b" in tex:
+                raise TypeError("Colored strings are not supported yet, check https://pypi.org/project/BetterPrinting/ "
+                                "if a new version is available")
 
             tex_len = len(tex)
             if tex == longest:
