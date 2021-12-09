@@ -10,13 +10,13 @@
 
 **split_wrd** (split word)[makes a big text to an list of words]    _BetterPrinting.splitWRD("Splits the text if space is between the words", print_val)_
 
-# color
+### color
 
 **color** [puts out a colored version of your text]    _BetterPrinting.color("text", "color for example red", print_val)_
 
 **rainbow_text** [makes your string a rainbow :)]     _BetterPrinting.rainbow_text("text", print_val)_
 
-# random
+### random
 
 **random_str** (random string)[prints out a random String of letters, numbers and special characters]    _BetterPrinting.randmSTR(number, print_val)_
 
