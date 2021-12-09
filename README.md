@@ -14,12 +14,7 @@ Ensure you have at least Python 3.
  or
  pip3 install BetterPrinting
  ```
-
-Termcolor is not a standard library. 
-
-Here is 
-<a href="https://pypi.org/project/termcolor/">termcolor</a>
-
+ 
 <hr>
 
 ### Explanations
