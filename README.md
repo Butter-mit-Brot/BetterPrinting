@@ -6,6 +6,7 @@ BetterPrinting is a library for easy to use printing actions and functions arrou
 <hr>
 
 Pypi: https://pypi.org/project/BetterPrinting/
+
 Version: 0.5.2
 
 <hr>
