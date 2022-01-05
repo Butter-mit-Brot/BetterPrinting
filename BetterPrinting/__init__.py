@@ -1,4 +1,4 @@
-from .ui import ui
+from .ui import ui, animation
 from .system import system
 from .rand import *
 from ._main import *

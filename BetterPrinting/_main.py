@@ -6,7 +6,7 @@ def multi_lines(*args):
     print("\n".join(args))
 
 
-def break_line(amount=20):
+def break_line(amount: int = 20):
     print("-" * amount)
 
 
@@ -20,19 +20,17 @@ def clear():
         print("os not detected")
 
 
-def split_wrd(text, print_val=True):
+def split_wrd(text: str, print_val: bool = True):
     txt = text
     sp = txt.split(" ")
-    if print_val is True:
+    if print_val:
         return print(sp)
-    elif print_val is False:
-        return sp
     else:
-        raise TypeError("print_val must be a bool!")
+        return sp
 
 
-def multi_input(number):
+def multi_input(number: int, prompt=""):
     lines = []
     for i in range(number):
-        lines.append(input())
+        lines.append(input(prompt))
     return lines

@@ -56,26 +56,22 @@ class system:
             print("|" + color("IP-ADDRESS: ", "green", print_val=False) + f"{socket.gethostbyname(socket.gethostname())}")
 
     @staticmethod
-    def time(print_val=True):
+    def time(print_val: bool = True):
         now_all = datetime.datetime.now()
         now = now_all.strftime("%H:%M:%S")
-        if print_val is True:
+        if print_val:
             return print(now)
-        elif print_val is False:
-            return now
         else:
-            raise TypeError("print_val must be a bool!")
+            return now
 
     @staticmethod
-    def date(print_val=True):
+    def date(print_val: bool = True):
         now_all = datetime.datetime.now()
         now = now_all.strftime("%d.%m.%G")
-        if print_val is True:
+        if print_val:
             return print(now)
-        elif print_val is False:
-            return now
         else:
-            raise TypeError("print_val must be a bool!")
+            return now
 
     @staticmethod
     def tasks():
