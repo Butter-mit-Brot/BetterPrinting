@@ -2,6 +2,10 @@
 
 Title bar:
 
+_(Prints a ascii bar with a text in it)_
+
+_BetterPrinting.ui.title_bar(Title, {optional}spaces=number of spaces)_
+
 ```Python
 import BetterPrinting as bp
 
@@ -16,6 +20,10 @@ Output:
 
 Text box:
 
+_(Prints a box where you can put as many strings as you want in it)_
+
+_BetterPrinting.ui.text_box(text, text, text {any amount}, {optional}free_line = even number, {optional}rounded_edges= True or False)_
+
 ```Python
 import BetterPrinting as bp
 
@@ -29,6 +37,10 @@ Output:
 
 
 Show a list:
+
+_(Prints a list the fancy way)_
+
+_BetterPrinting.ui.list(list, name{what name you give your list})_
 
 ```Python
 import BetterPrinting as bp
@@ -46,6 +58,10 @@ Output:
 
 Number: 
 
+_(Prints a easy to use Option selector screen)_
+
+_BetterPrinting.ui.number(all strings, {optional}break_line=True or False)_
+
 ```Python
 import BetterPrinting as bp
 
@@ -59,6 +75,10 @@ Output:
 
 
 Ascii Label:
+
+_(Print a label to your ascii art)_
+
+_BetterPrinting.ui.ascii_label(the art, the label, in wich row, {optional}space= the space between text and art)_
 
 ```Python
 import BetterPrinting as bp
