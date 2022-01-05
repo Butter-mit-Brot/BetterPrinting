@@ -43,3 +43,9 @@
 **title_bar** [prints a title bar with a text]     _BetterPrinting.ui.title_bar(Title, {optional}spaces=number of spaces)_
 
 **text_box** [prints a text box with any amount of text]     _BetterPrinting.ui.text_box(text, text, text {any amount}, {optional}free_line = even number, {optional}rounded_edges= True or False)_
+
+**list** [Prints a list the fancy way]     _BetterPrinting.ui.list(list, name{what name you give your list})_
+
+**number** [Prints a easy to use Option selector screen]     _BetterPrinting.ui.number(all strings, {optional}break_line=True or False)_
+
+**ascii_label** [Print a label next to your ascii art]     _BetterPrinting.ui.ascii_label(the art, the label, in wich row, {optional}space= the space between text and art)_
