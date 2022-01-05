@@ -76,7 +76,7 @@ Output:
 
 Ascii Label:
 
-_(Print a label to your ascii art)_
+_(Print a label next to your ascii art)_
 
 _BetterPrinting.ui.ascii_label(the art, the label, in wich row, {optional}space= the space between text and art)_
 
