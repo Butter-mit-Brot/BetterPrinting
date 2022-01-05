@@ -1,6 +1,15 @@
 Change Log
 ==========
 
+0.6.0 (05/01/2022)
+------------------
+
+- (in ui) added list, number and ascii_label function
+
+- (BETA) added animation class with string_change function
+
+- added Typehints so your IDE can work better
+
 0.5.2 (09/12/2021)
 ------------------
 
