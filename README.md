@@ -23,14 +23,6 @@ Ensure you have at least Python 3.
  
 <hr>
 
-### Explanations/ Examples
-
-<a href='https://github.com/Butter-mit-Brot/BetterPrinting#class-explanations'>Class explanations</a>
-
-<a href='https://github.com/Butter-mit-Brot/BetterPrinting#command-explanation'>Command explanations</a>
-
-<hr>
-
 ### Class explanations
 
 <a href='https://github.com/Butter-mit-Brot/BetterPrinting/blob/main/docs/draw.md'>The draw class</a>
