@@ -19,7 +19,7 @@ from BetterPrinting import draw
 drawing = draw(20, 20)
 ```
 
-"now you can use all the functions () and at the end write _variable name_.done() "
+"now you can use all the <a href="https://github.com/Butter-mit-Brot/BetterPrinting/blob/main/docs/draw.md#function-list">functions</a> and at the end write _variable name_.done() "
 
 ```Python
 from BetterPrinting import draw
