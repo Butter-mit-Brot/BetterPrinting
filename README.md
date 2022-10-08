@@ -47,30 +47,6 @@ Ensure you have at least Python 3.
 
 <hr>
 
-### Usage
-
- ```
-import BetterPrinting as bp
- ```
- 
-How to use the package?
-
- ```Python
-import BetterPrinting as bp
-
-bp.color("This is a green demo text!", "green")
-bp.multi_lines("Password Generator!", '\n')
-t = input("How long should the password be? ")
-bp.random_str(int(t))
- 
- ```
- 
- Result:
- 
-![image](https://user-images.githubusercontent.com/83476809/122221733-dbf91700-ceb1-11eb-87ba-9310ece111e1.png)
-
-<hr>
-
  ### Some examples
  
  Passwords:
@@ -89,25 +65,19 @@ Output:
 
 ![image](https://user-images.githubusercontent.com/83476809/121803530-69363480-cc42-11eb-9252-696a14bfc9d4.png)
 
-Word splitter:
+Text box:
 
 ```Python
 import BetterPrinting as bp
 
-bp.multi_lines("Text splitter!")
-
-text= 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et ' \
-      'dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores ' \
-      'et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.'
-
-bp.split_wrd(text)
+bp.ui.text_box("My new game!", "press Enter to start", rounded_edges=True)
 ```
 
 Output:
 
-![image](https://user-images.githubusercontent.com/83476809/121819941-30bd4780-cc90-11eb-9fe9-55d67e04396b.png)
+![image](https://user-images.githubusercontent.com/83476809/194708511-68a8bb8c-813b-40de-b212-795e59f0ebb2.png)
 
-Faster writing:
+Multi line:
 
 ```Python
 from BetterPrinting import multi_lines
