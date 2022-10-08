@@ -1,8 +1,3 @@
-import time
-import platform
-import os
-
-
 class ui:
 
     @staticmethod
@@ -100,17 +95,24 @@ class ui:
         print("|" + "-" * long + "|")
 
     @staticmethod
-    def number(*lines, break_line: bool = True):
+    def number(*lines, break_line: bool = True, print_val: bool = True):
         n_lst = [str(i) for i in lines]
         longest = max(n_lst, key=len)
         long = len(longest) + 5
 
+        string = """"""
+
         if break_line:
-            print("-" * long)
+            string += "-" * long + "\n"
         for i in range(1, len(lines) + 1):
-            print(f"[{i}] {lines[i - 1]}")
+            string += f"[{i}] {lines[i - 1]}" + "\n"
         if break_line:
-            print("-" * long)
+            string += "-" * long + "\n"
+
+        if print_val:
+            return print(string)
+        else:
+            return string
 
     @staticmethod
     def ascii_label(image: str, text: str, row: int, space: int = 5):
@@ -133,38 +135,3 @@ class ui:
                 print(i + " " * sks + text)
             else:
                 print(i + " " * sks)
-
-
-# This is still in Beta(I don't really know what to make with it):
-
-class animation:
-
-    @staticmethod
-    def string_change(string1, string2, sleep=0.5, os_clear: bool = True):
-        if os_clear:
-            plat = platform.system()
-            if "Windows" in plat:
-                clear = "win"
-            elif "Linux" in plat:
-                clear = "linux"
-            else:
-                print("os not detected")
-        else:
-            clear = "down"
-
-        l1 = len(string1)
-        l2 = len(string2)
-
-        for i in range(l1 + 1):
-            s1 = string1
-            print(s1, end="")
-            k = int(l2) - i
-            print("\b" * i, string2 + "\b" * k)
-            time.sleep(sleep)
-            if clear == "win":
-                os.system("cls")
-            elif clear == "Linux":
-                os.system("clear")
-            else:
-                print("\n" * 500)
-        print(string2)

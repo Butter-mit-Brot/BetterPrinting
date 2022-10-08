@@ -7,17 +7,24 @@ def multi_lines(*args):
 
 
 def break_line(amount: int = 20):
-    print("-" * amount)
+    print("-"*amount)
 
 
-def clear():
+def break_down(amount: int):
+    print("\n"*amount)
+
+
+def clear(platformic: bool = True):
     plat = platform.system()
-    if "Windows" in plat:
-        os.system("cls")
-    elif "Linux" in plat:
-        os.system("clear")
+    if platformic:
+        if "Windows" in plat:
+            os.system("cls")
+        elif "Linux" in plat:
+            os.system("clear")
+        else:
+            print("\n" * 100)
     else:
-        print("os not detected")
+        print("\n" * 100)
 
 
 def split_wrd(text: str, print_val: bool = True):

@@ -10,6 +10,7 @@ class system:
 
     @staticmethod
     def sys_info(**show):
+        printable = """"""
         kw = ['all', 'user', 'name', 'os', 'version', 'processor', 'architecture', 'ip']
         sysminf = platform.uname()
 
@@ -22,52 +23,54 @@ class system:
             for i in keys:
                 if i in kw:
                     if "user" in i:
-                        print("|" + color("USER: ", "green", print_val=False) + f"{getpass.getuser()}")
+                        printable += ("|" + color("USER: ", "green", print_val=False) + f"{getpass.getuser()}\n")
                     if "name" in i:
-                        print("|" + color("NAME: ", "green", print_val=False) + f"{sysminf.node}")
+                        printable += ("|" + color("NAME: ", "green", print_val=False) + f"{sysminf.node}\n")
                     if "os" in i:
-                        print("|" + color("OS: ", "green", print_val=False) + f"{sysminf.system}")
+                        printable += ("|" + color("OS: ", "green", print_val=False) + f"{sysminf.system}\n")
                     if "version" in i:
-                        print("|" + color("VERSION: ", "green", print_val=False) + f"{sysminf.version}")
+                        printable += ("|" + color("VERSION: ", "green", print_val=False) + f"{sysminf.version}\n")
                     if "processor" in i:
-                        print("|" + color("PROCESSOR: ", "green", print_val=False) + f"{sysminf.processor}")
+                        printable += ("|" + color("PROCESSOR: ", "green", print_val=False) + f"{sysminf.processor}\n")
                     if "architecture" in i:
-                        print("|" + color("ARCHITECTURE: ", "green", print_val=False) + f"{sysminf.machine}")
+                        printable += ("|" + color("ARCHITECTURE: ", "green", print_val=False) + f"{sysminf.machine}\n")
                     if "ip" in i:
-                        print("|" + color("IP-ADDRESS: ", "green", print_val=False) + f"{socket.gethostbyname(socket.gethostname())}")
+                        printable += ("|" + color("IP-ADDRESS: ", "green", print_val=False) + f"{socket.gethostbyname(socket.gethostname())}\n")
                     if "all" in i:
-                        print("|" + color("USER: ", "green", print_val=False) + f"{getpass.getuser()}")
-                        print("|" + color("NAME: ", "green", print_val=False) + f"{sysminf.node}")
-                        print("|" + color("OS: ", "green", print_val=False) + f"{sysminf.system}")
-                        print("|" + color("VERSION: ", "green", print_val=False) + f"{sysminf.version}")
-                        print("|" + color("PROCESSOR: ", "green", print_val=False) + f"{sysminf.processor}")
-                        print("|" + color("ARCHITECTURE: ", "green", print_val=False) + f"{sysminf.machine}")
-                        print("|" + color("IP-ADDRESS: ", "green", print_val=False) + f"{socket.gethostbyname(socket.gethostname())}")
+                        printable += ("|" + color("USER: ", "green", print_val=False) + f"{getpass.getuser()}\n")
+                        printable += ("|" + color("NAME: ", "green", print_val=False) + f"{sysminf.node}\n")
+                        printable += ("|" + color("OS: ", "green", print_val=False) + f"{sysminf.system}\n")
+                        printable += ("|" + color("VERSION: ", "green", print_val=False) + f"{sysminf.version}\n")
+                        printable += ("|" + color("PROCESSOR: ", "green", print_val=False) + f"{sysminf.processor}\n")
+                        printable += ("|" + color("ARCHITECTURE: ", "green", print_val=False) + f"{sysminf.machine}\n")
+                        printable += ("|" + color("IP-ADDRESS: ", "green", print_val=False) + f"{socket.gethostbyname(socket.gethostname())}\n")
                 else:
                     pass
 
-        elif show == {}:
-            print("|" + color("USER: ", "green", print_val=False) + f"{getpass.getuser()}")
-            print("|" + color("NAME: ", "green", print_val=False) + f"{sysminf.node}")
-            print("|" + color("OS: ", "green", print_val=False) + f"{sysminf.system}")
-            print("|" + color("VERSION: ", "green", print_val=False) + f"{sysminf.version}")
-            print("|" + color("PROCESSOR: ", "green", print_val=False) + f"{sysminf.processor}")
-            print("|" + color("ARCHITECTURE: ", "green", print_val=False) + f"{sysminf.machine}")
-            print("|" + color("IP-ADDRESS: ", "green", print_val=False) + f"{socket.gethostbyname(socket.gethostname())}")
+        else:
+            printable += ("|" + color("USER: ", "green", print_val=False) + f"{getpass.getuser()}\n")
+            printable += ("|" + color("NAME: ", "green", print_val=False) + f"{sysminf.node}\n")
+            printable += ("|" + color("OS: ", "green", print_val=False) + f"{sysminf.system}\n")
+            printable += ("|" + color("VERSION: ", "green", print_val=False) + f"{sysminf.version}\n")
+            printable += ("|" + color("PROCESSOR: ", "green", print_val=False) + f"{sysminf.processor}\n")
+            printable += ("|" + color("ARCHITECTURE: ", "green", print_val=False) + f"{sysminf.machine}\n")
+            printable += ("|" + color("IP-ADDRESS: ", "green", print_val=False) + f"{socket.gethostbyname(socket.gethostname())}\n")
+
+        print(printable)
 
     @staticmethod
-    def time(print_val: bool = True):
+    def time(print_val: bool = True, strftime: str = "%H:%M:%S"):
         now_all = datetime.datetime.now()
-        now = now_all.strftime("%H:%M:%S")
+        now = now_all.strftime(strftime)
         if print_val:
             return print(now)
         else:
             return now
 
     @staticmethod
-    def date(print_val: bool = True):
+    def date(print_val: bool = True, strftime: str = "%d.%m.%G"):
         now_all = datetime.datetime.now()
-        now = now_all.strftime("%d.%m.%G")
+        now = now_all.strftime(strftime)
         if print_val:
             return print(now)
         else:
