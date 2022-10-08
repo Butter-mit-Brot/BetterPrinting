@@ -1,6 +1,17 @@
 Change Log
 ==========
 
+0.7.0 (08/10/2022)
+------------------
+
+- added draw class
+
+- added break_down method
+
+- changes in system class functions: time, date and sys_info
+
+- removed animation class with string_change function
+
 0.6.0 (05/01/2022)
 ------------------
 
