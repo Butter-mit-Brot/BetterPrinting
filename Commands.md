@@ -28,6 +28,20 @@
 
 **random_sym** (random symbols)[prints out a random combination of special characters]    _BetterPrinting.randmSYM(number, print_val)_
 
+# class draw:
+
+**draw** [inits the class]    _var_name = BetterPrinting.draw(canvas size x, canvas size y, {optional character to be used for drawing})_
+
+**var_name.set_pos** [sets position of pencil]    _var_name.set_pos(x, y)_
+
+**var_name.forward** [goes forward an specific amount of characters in set direction]    _var_name.forward(distance)_
+
+**var_name.turn** [turns you into set direction (does not draw)]    _var_name.turn(direction[You can only use "right", "left", "down", "up"])_
+
+**turn_reset** [resets direction to right]    _var_name.turn_reset()_
+
+**done** [draws the canvas]    _var_name.done()_
+
 # class system:
 
 **sys_info** (systeminfo)[prints systeminfo]     _BetterPrinting.system.sysinfo({leave empty if everything should be shown or write all=True} {if you just want to show specific information write the keywords + = + True for example: user=True} all keywords: user, name, os, version, processor, architecture, ip)_
