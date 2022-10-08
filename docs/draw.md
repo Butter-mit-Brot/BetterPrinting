@@ -3,6 +3,7 @@
 The draw class is used to draw into your terminal.
 
 ### How to use it:
+_________________
 
 "Import draw"
 
@@ -42,7 +43,23 @@ Output:
 ![image](https://user-images.githubusercontent.com/83476809/194707601-1bf219de-7fe4-4c5f-813a-6975baf4f632.png)
 
 
-### function list:
+### Function list:
+______________________________
+#### set_pos:
+
+(sets position on canvas)
+
+_var_name.set_pos(x, y)_
+
+```Python
+from BetterPrinting import draw
+
+drawing = draw(20, 20)
+
+drawing.set_pos(0, 3)
+drawing.forward(4)
+drawing.done()
+```
 
 #### forward:
 
@@ -63,7 +80,23 @@ drawing.done()
 
 (turns you into set direction [does not draw])
 
-_var_name.turn(direction)_ 
+_var_name.turn(direction)_      
+(You can only use "right", "left", "down", "up" as directions)
+```Python
+from BetterPrinting import draw
+
+drawing = draw(20, 20)
+
+drawing.turn("down")
+drawing.forward(4)
+drawing.done()
+```
+
+#### turn_reset:
+
+(resets direction to right)
+
+_var_name.turn_reset()_
 
 ```Python
 from BetterPrinting import draw
@@ -71,6 +104,23 @@ from BetterPrinting import draw
 drawing = draw(20, 20)
 
 drawing.turn("down")
+drawing.forward(4)
+drawing.drawing.turn_reset()
+drawing.forward(2)
+drawing.done()
+```
+
+#### done:
+
+(draws the canvas)
+
+_var_name.done()_
+
+```Python
+from BetterPrinting import draw
+
+drawing = draw(20, 20)
+
 drawing.forward(4)
 drawing.done()
 ```
