@@ -31,6 +31,20 @@ Ensure you have at least Python 3.
 
 <hr>
 
+### Class explanations
+
+<a href='https://github.com/Butter-mit-Brot/BetterPrinting/blob/main/docs/ui.md#the-ui-class'>The ui class</a>
+
+<a href='https://github.com/Butter-mit-Brot/BetterPrinting/blob/main/docs/system.md#the-system-class'>The system class</a>
+
+<hr>
+
+### Command explanation
+
+<a href="https://github.com/Butter-mit-Brot/BetterPrinting/blob/main/Commands.md">All commands here</a>
+
+<hr>
+
 ### Usage
 
  ```
@@ -134,19 +148,5 @@ In Windows:
 In Linux subsystem:
 
 ![image](https://user-images.githubusercontent.com/83476809/142876040-ca3a1666-3910-4db9-8131-c478fbcb531d.png)
-
-<hr>
-
-### Class explanations
-
-<a href='https://github.com/Butter-mit-Brot/BetterPrinting/blob/main/docs/ui.md#the-ui-class'>The ui class</a>
-
-<a href='https://github.com/Butter-mit-Brot/BetterPrinting/blob/main/docs/system.md#the-system-class'>The system class</a>
-
-<hr>
-
-### Command explanation
-
-<a href="https://github.com/Butter-mit-Brot/BetterPrinting/blob/main/Commands.md">All commands here</a>
 
 <hr>
