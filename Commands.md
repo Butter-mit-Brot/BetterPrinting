@@ -48,9 +48,9 @@
 
 **sys_info** (systeminfo)[prints systeminfo]     _BetterPrinting.system.sysinfo({leave empty if everything should be shown or write all=True} {if you just want to show specific information write the keywords + = + True for example: user=True} all keywords: user, name, os, version, processor, architecture, ip)_
 
-**time** [prints or returns the time]     _BetterPrinting.system.time(print_val)_
+**time** [prints or returns the time]     _BetterPrinting.system.time(print_val, {optional}strftime to <a href="https://docs.python.org/3/library/datetime.html#strftime-and-strptime-format-codes">format</a> the time)_
 
-**date** [prints or returns the date]     _BetterPrinting.system.date(print_val)_
+**date** [prints or returns the date]     _BetterPrinting.system.date(print_val, {optional}strftime to <a href="https://docs.python.org/3/library/datetime.html#strftime-and-strptime-format-codes">format</a> the time)_
 
 **tasks** [prints out the current tasks (works only in windows and Linux)]     _BetterPrinting.system.tasks()_
 
