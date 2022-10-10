@@ -6,6 +6,8 @@
 
 **break_line** [prints a Line with minuses]     _BetterPrinting.breakline({optional}amount=number)_
 
+**break_down** [makes as much new lines as you want]     _BetterPrinting.breakdown(amount)_
+
 **clear** [clears your terminal(windows/linux)]     _BetterPrinting.clear()_
 
 **split_wrd** (split word)[makes a big text to an list of words]    _BetterPrinting.splitWRD("Splits the text if space is between the words", print_val)_
