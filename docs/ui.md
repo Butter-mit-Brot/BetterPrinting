@@ -47,7 +47,7 @@ import BetterPrinting as bp
 
 lst = ['List item1', 'List item2', 'List item3', 'List item4', 10000, 2.0, True, (1, "Yes"), ["Yes", "No", "maybe"]]
 
-bp.ui.list(lst, "THE LIST OF...")
+bp.ui.list(lst, "THIS IS MY WONDERFUL LIST")
 
 ```
 
