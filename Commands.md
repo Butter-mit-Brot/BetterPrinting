@@ -38,11 +38,17 @@
 
 **var_name.forward** [goes forward an specific amount of characters in set direction]    _var_name.forward(distance)_
 
+**var_name.place_character** [places 1 character]    _var_name.place_character(x, y, character)_
+
+**var_name.place_text** [places text on the canvas]    _var_name.place_character(x, y, text)_
+
 **var_name.turn** [turns you into set direction (does not draw)]    _var_name.turn(direction[You can only use "right", "left", "down", "up"])_
 
-**turn_reset** [resets direction to right]    _var_name.turn_reset()_
+**var_name.turn_reset** [resets direction to right]    _var_name.turn_reset()_
 
-**done** [draws the canvas]    _var_name.done()_
+**var_name.clear** [clears canvas (does not print again)]    _var_name.clear()_
+
+**var_name.done** [draws the canvas]    _var_name.done()_
 
 # class system:
 
