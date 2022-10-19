@@ -76,6 +76,37 @@ drawing.forward(2)
 drawing.done()
 ```
 
+#### place_character:
+
+(places 1 character)
+
+_var_name.place_character(x, y, character)_
+
+```Python
+from BetterPrinting import draw
+
+drawing = draw(20, 20)
+
+drawing.place_character(3, 3, "H")
+drawing.place_character(4, 3, "I")
+drawing.done()
+```
+
+#### place_text:
+
+(places text on the canvas)
+
+_var_name.place_character(x, y, text)_
+
+```Python
+from BetterPrinting import draw
+
+drawing = draw(20, 20)
+
+drawing.place_text(3, 3, "Hello")
+drawing.done()
+```
+
 #### turn:
 
 (turns you into set direction [does not draw])
@@ -106,6 +137,24 @@ drawing = draw(20, 20)
 drawing.turn("down")
 drawing.forward(4)
 drawing.drawing.turn_reset()
+drawing.forward(2)
+drawing.done()
+```
+
+#### clear:
+
+(clears canvas [does not print again])
+
+_var_name.clear()_
+
+```Python
+from BetterPrinting import draw
+
+drawing = draw(20, 20)
+
+drawing.turn("down")
+drawing.forward(4)
+drawing.drawing.clear()
 drawing.forward(2)
 drawing.done()
 ```
