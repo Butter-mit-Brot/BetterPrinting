@@ -16,7 +16,7 @@ classifiers = [
 
 setup(
     name='BetterPrinting',
-    version='0.7.0',
+    version='0.7.2',
     description='An set of printing tools',
     long_description=open('README.txt').read() + '\n\n' + open('CHANGELOG.txt').read(),
     url='https://github.com/Butter-mit-Brot/BetterPrinting',

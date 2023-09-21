@@ -1,6 +1,18 @@
 Change Log
 ==========
 
+0.7.2 (21/09/2023)
+------------------
+
+- added version function
+
+- changes in ui list function: number
+
+0.7.1 (19/10/2022)
+------------------
+
+- added clear, place_character and place_text to draw
+
 0.7.0 (08/10/2022)
 ------------------
 
