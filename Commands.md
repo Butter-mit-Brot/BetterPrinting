@@ -14,6 +14,8 @@
 
 **multi_input** [lets you get multiple inputs at ones (returns a list so you have a index of your inputs)]     _BetterPrinting.multi_input(number of lines)_
 
+**version** [prints out the installed version]     _BetterPrinting.version()_
+
 ## color
 
 **color** [puts out a colored version of your text]    _BetterPrinting.color("text", "color for example red", print_val)_
@@ -66,7 +68,7 @@
 
 **text_box** [prints a text box with any amount of text]     _BetterPrinting.ui.text_box(text, text, text {any amount}, {optional}free_line = even number, {optional}rounded_edges= True or False)_
 
-**list** [Prints a list the fancy way]     _BetterPrinting.ui.list(list, name{what name you give your list})_
+**list** [Prints a list the fancy way]     _BetterPrinting.ui.list(list, name{what name you give your list}, number{if you want to number the items})_
 
 **number** [Prints a easy to use Option selector screen]     _BetterPrinting.ui.number(all strings, {optional}break_line=True or False)_
 
