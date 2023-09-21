@@ -7,11 +7,11 @@ def multi_lines(*args):
 
 
 def break_line(amount: int = 20):
-    print("-"*amount)
+    print("-" * amount)
 
 
 def break_down(amount: int):
-    print("\n"*amount)
+    print("\n" * amount)
 
 
 def clear(platformic: bool = True):
@@ -41,3 +41,7 @@ def multi_input(number: int, prompt=""):
     for i in range(number):
         lines.append(input(prompt))
     return lines
+
+
+def version():
+    multi_lines("--BetterPrinting--", "0.7.2")

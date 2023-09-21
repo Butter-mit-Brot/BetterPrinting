@@ -67,8 +67,11 @@ class ui:
             print("\\" + "-" * multi + "/")
 
     @staticmethod
-    def list(lst: list, list_name):
+    def list(lst: list, list_name, number: bool = False):
         n_lst = [str(i) for i in lst]
+        if number:
+            n_lst = [f"[{n_lst.index(i)}] "+i for i in n_lst]
+
         longest = max(n_lst, key=len)
 
         if len(list_name) > len(longest):
