@@ -70,7 +70,7 @@ class ui:
     def list(lst: list, list_name, number: bool = False):
         n_lst = [str(i) for i in lst]
         if number:
-            n_lst = [f"[{n_lst.index(i)}] "+i for i in n_lst]
+            n_lst = [f"[{n_lst.index(i)+1}] "+i for i in n_lst]
 
         longest = max(n_lst, key=len)
 

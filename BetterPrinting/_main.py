@@ -44,4 +44,4 @@ def multi_input(number: int, prompt=""):
 
 
 def version():
-    multi_lines("--BetterPrinting--", "0.7.2")
+    multi_lines("--BetterPrinting--", "0.7.3")
