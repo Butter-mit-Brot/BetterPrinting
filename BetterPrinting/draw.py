@@ -90,3 +90,28 @@ class draw:
 
     def turn_reset(self):
         self.turn_direction = "right"
+
+    def clear(self):
+        self.canvas = """"""
+
+        for x in range(self.canvas_y):
+            for y in range(self.canvas_x):
+                self.canvas += " "
+            self.canvas += "\n"
+
+    def place_character(self, x: int, y: int, character: str):
+        if len(character) > 1:
+            raise ValueError("You can only use 1 character not more")
+
+        self.__canvas_line(y, x, character)
+
+    def place_text(self, x: int, y: int, text: str):
+        x_plus = 0
+        if x + len(text) > self.canvas_x:
+            raise ValueError("Your text is moving outside the canvas!")
+
+        for c in text:
+            self.__canvas_line(y, x + x_plus, c)
+            x_plus += 1
+
+
